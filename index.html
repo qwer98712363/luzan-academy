@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أكاديمية لوزان لكرة القدم</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- الشريط العلوي -->
+    <header>
+        <div class="logo">
+            <!-- إضافة الشعار هنا -->
+            <img src="7b2bd2ef-bf1e-4919-9111-91803a6746a4_index (3).html" alt="شعار أكاديمية لوزان">
+            <h1>أكاديمية لوزان | 🔴⚫️LAUSANNE AC</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#about">عن الأكاديمية</a></li>
+                <li><a href="#programs">برامجنا</a></li>
+                <li><a href="#register">التسجيل</a></li>
+                <li><a href="#contact">تواصل معنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- الصفحة الرئيسية -->
+    <section id="home">
+        <h2>مرحبًا بك في أكاديمية لوزان</h2>
+        <p>نعمل على تطوير المواهب الكروية منذ عام 2010.</p>
+        <a href="#register" class="btn">سجل الآن</a>
+    </section>
+
+    <!-- صفحة عن الأكاديمية -->
+    <section id="about">
+        <h2>عن الأكاديمية</h2>
+        <p>تأسست أكاديمية لوزان بهدف اكتشاف المواهب الكروية وتطويرها لتصبح جاهزة للمنافسة على أعلى المستويات.</p>
+    </section>
+
+    <!-- برامجنا -->
+    <section id="programs">
+        <h2>برامجنا التدريبية</h2>
+        <div class="program-list">
+            <div class="program">
+                <h3>فريق تحت 25 سنة</h3>
+                <p>برنامج متقدم يركز على تطوير المهارات الفنية والتكتيكية.</p>
+            </div>
+            <div class="program">
+                <h3>فريق تحت 19 سنة</h3>
+                <p>برنامج يهدف إلى صقل المواهب الشابة وإعدادهم للمستقبل.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- التسجيل -->
+    <section id="register">
+        <h2>التسجيل</h2>
+        <form action="submit.php" method="POST">
+            <input type="text" name="name" placeholder="اسم اللاعب" required>
+            <input type="number" name="age" placeholder="العمر" required>
+            <input type="tel" name="phone" placeholder="رقم الهاتف" required>
+            <input type="email" name="email" placeholder="البريد الإلكتروني" required>
+            <select name="program">
+                <option value="u25">فريق تحت 25 سنة</option>
+                <option value="u19">فريق تحت 19 سنة</option>
+            </select>
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+
+    <!-- تواصل معنا -->
+    <section id="contact">
+        <h2>تواصل معنا</h2>
+        <p>للاستفسار، يمكنك الاتصال بنا على الرقم: +968 97070401</p>
+        <form action="submit.php" method="POST">
+            <input type="text" name="name" placeholder="اسمك" required>
+            <input type="email" name="email" placeholder="بريدك الإلكتروني" required>
+            <textarea name="message" placeholder="رسالتك"></textarea>
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+
+    <!-- الشريط السفلي -->
+    <footer>
+        <p>&copy; 2023 أكاديمية لوزان. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
